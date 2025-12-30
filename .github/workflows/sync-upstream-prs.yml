@@ -20,7 +20,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.MIRROR_REPOS_WRITE_PAT }} # use PAT for gh API calls against the mirror
       UPSTREAM_REPO: '${{ vars.UPSTREAM_REPO }}'
-      UPSTREAM_REMOTE: "upstream"
+      UPSTREAM_REMOTE: "master"
       ORIGIN_BASE_BRANCH: "master"
       UPSTREAM_BASELINE_TAG: "upstream-baseline"
       MAX_UPSTREAM_PRS: '${{ vars.MIRROR_MAX_UPSTREAM_PRS }}' # maximum number of upstream PRs to mirror
