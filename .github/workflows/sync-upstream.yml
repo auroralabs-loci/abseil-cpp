@@ -21,7 +21,7 @@ jobs:
       UPSTREAM_REPO: '${{ vars.UPSTREAM_REPO }}'
       UPSTREAM_REMOTE: "upstream"
       UPSTREAM_BASELINE_TAG: "upstream-baseline"
-      MAIN_BRANCH: "main"
+      MAIN_BRANCH: "master"
       OVERLAY_BRANCH: "overlay"
       CANCEL_UPSTREAM_WORKFLOWS: 'false'
 
