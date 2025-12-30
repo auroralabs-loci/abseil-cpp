@@ -15,7 +15,7 @@ jobs:
   build-and-upload:
     name: Build and Upload Artifacts
     runs-on: ubuntu-latest
-    environment: ${{ vars.LOCI_ENV || 'PROD__AL_DEMO' }}
+    environment: ${{ vars.LOCI_ENV || 'abseil-cpp-prod' }}
 
     steps:
       - name: Checkout code
